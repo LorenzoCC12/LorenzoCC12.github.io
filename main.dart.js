@@ -108568,23 +108568,25 @@ p=t.p
 l=A.i(n,A.az(A.a([new A.aC(B.Je,A.bZ(!1,o.e,A.bF(n,new A.S(4,B.l,B.d1),n,n,n,n,n,n,!0,n,n,n,n,n,s,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!1,n,n,n,"Password",n,j,n,n,n,n,n,n,A.cI(n,q,n,new A.aGE(o),n,n,n),n,n,n,n),n,1,r,new A.aGF(o),n,!1,n),n),new A.dN(B.h_,n,n,new A.aC(new A.D(0,4,0,0),A.du(A.o("Forgot password?",n,n,n,n,n,n),new A.aGG(),n),n),n)],p),B.i,B.j,B.h),B.d,n,n,n,n,n,n,n,n,n,l)
 r=A.cM(n,n,n,n,n,n,n,n,n,new A.V(200,60),n,n,n,n,n,n,new A.bY(A.eE(50),B.w),n,n,n,n)
 return A.c3(A.az(A.a([m,k,l,new A.aC(B.Jf,A.cS(!1,A.o("LOGIN",n,n,n,A.eb(A.v(a).fr,24,B.kC,n),n,n),B.d,n,n,n,n,n,new A.aGH(o),r),n)],p),B.i,B.Y,B.h),n,n)},
-ww(){var s=0,r=A.C(t.z),q=this,p,o
+ww(){var s=0,r=A.C(t.z),q=this,p,o,n,m
 var $async$ww=A.y(function(a,b){if(a===1)return A.z(b,r)
-while(true)switch(s){case 0:p=q.y
+while(true)switch(s){case 0:p=q.d.a.a
+o=q.e.a.a
+n=q.y
 s=2
-return A.x(p==null?null:p.oF("Jns4g4w3Hw","12345678!"),$async$ww)
-case 2:o=b
-A.cY("RUOLO: "+A.f(o))
-if(o==="superuser"){p=q.c
-p.toString
-A.bv(p,!1).E0("/data-adm-overview",t.X)}else if(o==="data_administrator"){p=q.c
-p.toString
-A.bv(p,!1).E0("/data-adm-overview",t.X)}else if(o==="study_administrator"){p=q.c
-p.toString
-A.bv(p,!1).E0("/data-adm-overview",t.X)}else{A.cY("error: not authorized")
-p=q.c
-p.toString
-new A.bo().aS(p,"Attention user not authorized",!0)}return A.A(null,r)}})
+return A.x(n==null?null:n.oF(p,o),$async$ww)
+case 2:m=b
+A.cY("RUOLO: "+A.f(m))
+if(m==="superuser"){n=q.c
+n.toString
+A.bv(n,!1).E0("/data-adm-overview",t.X)}else if(m==="data_administrator"){n=q.c
+n.toString
+A.bv(n,!1).E0("/data-adm-overview",t.X)}else if(m==="study_administrator"){n=q.c
+n.toString
+A.bv(n,!1).E0("/data-adm-overview",t.X)}else{A.cY("error: not authorized")
+n=q.c
+n.toString
+new A.bo().aS(n,"Attention user not authorized",!0)}return A.A(null,r)}})
 return A.B($async$ww,r)}}
 A.aGC.prototype={
 $0(){var s=$.a1.G$.f.f
