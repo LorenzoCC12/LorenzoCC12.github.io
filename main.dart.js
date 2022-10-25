@@ -106857,7 +106857,7 @@ return A.A(null,r)}})
 return A.B($async$ie,r)},
 aqs(){var s=null
 if(this.db)return A.i(s,A.ae9(B.z,B.m,2),B.d,s,s,s,s,15,s,s,s,s,15)
-else return A.i(s,s,B.d,s,s,s,s,s,s,s,s,s,s)}}
+else return A.i(s,s,B.d,B.z,s,s,s,15,s,s,s,s,15)}}
 A.aMu.prototype={
 $0(){var s=this.b,r=this.a,q=r.z.a
 q.toString
@@ -108920,7 +108920,7 @@ A.bv(l,!1).ke("/data-adm-overview",new A.aMb(),o)
 break
 case"data_administrator":l=p.c
 l.toString
-A.bv(l,!1).ke("/data-adm-patients",new A.aMc(),o)
+A.bv(l,!1).ke("/data-adm-overview",new A.aMc(),o)
 break
 case"study_administrator":l=p.c
 l.toString
