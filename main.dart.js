@@ -28067,7 +28067,7 @@ s=6
 return A.w(l,$async$a9u)
 case 6:o=e
 if(o!=null){new A.fd().aD(a,"Patient deleted!",!1)
-A.b8(a,!1).dG("/data-adm-clinicians",new A.aM6(),t.X)}q=1
+A.b8(a,!1).dG("/data-adm-patients",new A.aM6(),t.X)}q=1
 s=5
 break
 case 3:q=2
