@@ -104795,23 +104795,25 @@ p=t.p
 l=A.e(n,A.av(A.a([new A.aH(B.JR,A.bJ(!1,o.e,A.br(n,new A.J(4,B.m,B.d4),n,n,n,n,n,n,!0,n,n,n,n,n,s,!0,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,!1,n,n,n,"Password",n,j,n,n,n,n,n,n,A.cv(n,q,n,new A.aE1(o),B.G,n,n),n,n,n,n),n,1,r,new A.aE2(o),n,!1,n),n),new A.dR(B.h_,n,n,new A.aH(new A.u(0,4,0,0),A.dF(A.n("Forgot password?",n,n,n,n,n,n),new A.aE3(),n),n),n)],p),B.i,B.j,B.h),B.c,n,n,n,n,n,n,n,n,n,l)
 r=A.cb(n,n,n,n,n,n,n,n,n,new A.Y(200,60),n,n,n,n,n,new A.bX(A.e9(50),B.x),n,n,n,n)
 return A.c3(A.av(A.a([m,k,l,new A.aH(B.JS,A.cd(!1,A.n("LOGIN",n,n,n,A.dW(A.E(a).fy,24,B.kd,n),n,n),B.c,n,n,n,n,n,new A.aE4(o),r),n)],p),B.i,B.V,B.h),n,n)},
-vu(){var s=0,r=A.D(t.z),q=this,p,o
+vu(){var s=0,r=A.D(t.z),q=this,p,o,n,m
 var $async$vu=A.z(function(a,b){if(a===1)return A.A(b,r)
-while(true)switch(s){case 0:p=q.y
+while(true)switch(s){case 0:p=q.d.a.a
+o=q.e.a.a
+n=q.y
 s=2
-return A.w(p==null?null:p.o1("Jns4g4w3Hw","12345678!"),$async$vu)
-case 2:o=b
-A.cq("RUOLO: "+A.h(o))
-if(o==="superuser"){p=q.c
-p.toString
-A.b8(p,!1).dG("/data-adm-overview",new A.aDY(),t.X)}else if(o==="data_administrator"){p=q.c
-p.toString
-A.b8(p,!1).dG("/data-adm-overview",new A.aDZ(),t.X)}else if(o==="study_administrator"){p=q.c
-p.toString
-A.b8(p,!1).dG("/data-adm-overview",new A.aE_(),t.X)}else{A.cq("error: not authorized")
-p=q.c
-p.toString
-new A.bk().aD(p,"Attention user not authorized",!0)}return A.B(null,r)}})
+return A.w(n==null?null:n.o1(p,o),$async$vu)
+case 2:m=b
+A.cq("RUOLO: "+A.h(m))
+if(m==="superuser"){n=q.c
+n.toString
+A.b8(n,!1).dG("/data-adm-overview",new A.aDY(),t.X)}else if(m==="data_administrator"){n=q.c
+n.toString
+A.b8(n,!1).dG("/data-adm-overview",new A.aDZ(),t.X)}else if(m==="study_administrator"){n=q.c
+n.toString
+A.b8(n,!1).dG("/data-adm-overview",new A.aE_(),t.X)}else{A.cq("error: not authorized")
+n=q.c
+n.toString
+new A.bk().aD(n,"Attention user not authorized",!0)}return A.B(null,r)}})
 return A.C($async$vu,r)}}
 A.aDX.prototype={
 $0(){var s=$.a2.C$.f.f
